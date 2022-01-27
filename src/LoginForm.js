@@ -1,18 +1,18 @@
-import './components/LoginForm.css'
 import React from 'react'
+import styles from './components/LoginForm.module.css'
 
 function LoginForm(){
     return(
-    <form className="form">
-            <label className="label" htmlFor="name">Name
-              <input className="input" type="text" name="name"></input>
+    <form className={styles.form}>
+            <label className={styles.label}>Name
+              <input className={styles.input} type="text" name="name"></input>
             </label>
             <div></div>
-            <label htmlFor="password">Password
-              <input type="password" name="password" ></input>
+            <label className={styles.label}>Password
+              <input className={styles.input} type="password" name="password" ></input>
             </label>
             <div></div>
-            <button className="submit" type="submit">Submit</button>
+            <button className={styles.submit} type="submit">Submit</button>
           </form>
     )
 }
