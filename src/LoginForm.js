@@ -12,7 +12,7 @@ function LoginForm(){
             <label className={styles.label} htmlFor="password">Password</label>
             <input className={styles.input} type="password" id="password"/>
         </div>
-        <button className={styles.submit} type="submit">Submit</button>
+        <input className={styles.submit} type="submit" value="Submit"/>
     </form>
     )
 }
