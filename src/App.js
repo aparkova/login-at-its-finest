@@ -12,7 +12,7 @@ function App() {
       </section>
       <div className="container is-fullhd">
         <div className="notification">
-          Edit the <code>./src</code> folder to add components.
+          {/* Edit the <code>./src</code> folder to add components. */}
           <LoginForm/>
         </div>
       </div>
