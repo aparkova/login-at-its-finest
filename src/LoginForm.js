@@ -9,7 +9,7 @@ function LoginForm(){
         <input className={styles.input} type="text" id="name"></input>
         </div>
         <div>
-        <label className={styles.label} htmlFor=''>Password</label>
+        <label className={styles.label} htmlFor='password'>Password</label>
         <input className={styles.input} type="password" id="password" ></input>
         </div>
         <button className={styles.submit} type="submit">Submit</button>
